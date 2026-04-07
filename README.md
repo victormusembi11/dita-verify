@@ -1,13 +1,13 @@
-# dita-verify
+# daystar-verify
 
 Verify that a student exists at Daystar University by authenticating against the student portal.
 
 ## Installation
 
 ```bash
-npm install dita-verify
+npm install daystar-verify
 # or
-pnpm add dita-verify
+pnpm add daystar-verify
 ```
 
 ## Environment Variable
@@ -21,7 +21,7 @@ DAYSTAR_PORTAL_URL=https://your-portal-url.com
 ## Usage
 
 ```ts
-import { fetchSessionToken, login } from "dita-verify";
+import { fetchSessionToken, login } from "daystar-verify";
 
 async function verifyStudent(admno: string, password: string) {
   const token = await fetchSessionToken();
@@ -35,7 +35,7 @@ async function verifyStudent(admno: string, password: string) {
 Both functions throw on failure, so wrap in a try/catch:
 
 ```ts
-import { fetchSessionToken, login } from "dita-verify";
+import { fetchSessionToken, login } from "daystar-verify";
 
 async function verifyStudent(admno: string, password: string) {
   try {

@@ -1,6 +1,6 @@
 {
-  "name": "dita-verify",
-  "version": "1.0.1",
+  "name": "daystar-verify",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
